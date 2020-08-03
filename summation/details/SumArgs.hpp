@@ -36,4 +36,7 @@ namespace Summation::Details
       return aux(accum, xs ...);
     }
   }; // end of class SumArgs
+
+  constexpr SumArgs sum_args{};
+
 } // end of namespace Summation::Details

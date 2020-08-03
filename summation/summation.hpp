@@ -17,11 +17,10 @@ namespace Summation
   using ::Summation::Details::neumaier;
   using ::Summation::Details::klein;
 
-  constexpr ::Summation::Details::SumRange sum_range{};
-  constexpr ::Summation::Details::TranSumRange transum_range{};
-  constexpr ::Summation::Details::Tran2SumRange tran2sum_range{};
-  constexpr ::Summation::Details::SumArgs sum_args{};
-  constexpr ::Summation::Details::TranSumArgs transum_args{};
-
+  using ::Summation::Details::sum_range;
+  using ::Summation::Details::transum_range;
+  using ::Summation::Details::tran2sum_range;
+  using ::Summation::Details::sum_args;
+  using ::Summation::Details::transum_args;
 
 } // end of namespace Summation

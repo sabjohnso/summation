@@ -13,7 +13,6 @@ The following summation algorithms are implemented:
   - Neumaier
   - Klein
 
-  
 Additionally, there is a pairwise summation algorithm which uses any
 of the aforementioned algorithms as a base and all of the base
 algorithms can be configured to use enhanced precision.

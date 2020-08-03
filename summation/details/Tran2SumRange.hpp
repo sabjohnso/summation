@@ -32,4 +32,7 @@ namespace Summation::Details
       }
     }
   }; // end of class Tran2SumRange
+
+  constexpr Tran2SumRange tran2sum_range{};
+
 } // end of namespace Summation::Details

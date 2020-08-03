@@ -28,4 +28,6 @@ namespace Summation::Details
     }
   }; // end of class TranSumRange
 
+  constexpr TranSumRange transum_range{};
+
 } // end of namespace Summation::Details

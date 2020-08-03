@@ -28,4 +28,6 @@ namespace Summation::Details
     }
   }; // end of class SumRange
 
+  constexpr SumRange sum_range{};
+
 } // end of namespace Summation::Details

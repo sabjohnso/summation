@@ -39,4 +39,6 @@ namespace Summation::Details
     }
   }; // end of class SumArgs
 
+  constexpr TranSumArgs transum_args{};
+
 } // end of namespace Summation::Details
