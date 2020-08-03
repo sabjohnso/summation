@@ -5,6 +5,7 @@
 //
 #include <cmath>
 #include <type_traits>
+#include <iterator>
 
 //
 // ... External header files
@@ -18,6 +19,8 @@ namespace Summation::Details
   using std::common_type_t;
 
   using std::logic_error;
+
+  using std::distance;
 
   using TypeUtility::CRTP;
   using TypeUtility::Type;
