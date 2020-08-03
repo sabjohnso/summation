@@ -1,0 +1,23 @@
+#pragma once
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#define SUMMATION_MAX_ARGS ${summation_CAPI_MAX_ARAGS}
+
+  typedef enum {NAIVE, KAHAN, NEUMAIER, KLEIN} Algorithm;
+
+  double
+  dsum2(Algorithm alg, double x1, double x2);
+
+  double
+  dsum3(Algorithm alg, double x1, double x2, double x3);
+
+  double
+  dsum4(Algorithm alg, double x1, double x2, double x3, double x4);
+  
+#ifdef __cplusplus
+} // end of extern "C"
+#endif
+

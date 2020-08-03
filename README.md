@@ -21,4 +21,3 @@ algorithms can be configured to use enhanced precision.
 Certain compilers and compiler flags may eliminate the algorithm in
 this library and it is important to take the proper care to ensure
 user code is behaving as expected.
-

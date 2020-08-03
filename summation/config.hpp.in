@@ -1,6 +1,6 @@
 #pragma once
 
-namespace summation::Config
+namespace Summation::Config
 {
   struct Info {
     static constexpr char name[] = ${PROJECT_NAME};
