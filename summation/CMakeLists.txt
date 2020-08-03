@@ -6,6 +6,7 @@ target_include_directories(summation
   $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>
   $<BUILD_INTERFACE:${PROJECT_BINARY_DIR}>
   $<INSTALL_INTERFACE:${summation_INSTALL_INCLUDEDIR}>)
+target_link_libraries(summation INTERFACE type_utility::type_utility)
 
 add_library(summation::summation ALIAS summation)
   
