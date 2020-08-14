@@ -35,7 +35,6 @@ install(FILES
   summation.hpp
   ${CMAKE_CURRENT_BINARY_DIR}/config.hpp
   ${CMAKE_CURRENT_BINARY_DIR}/capi.h
-  summation.hpp
   DESTINATION ${summation_INSTALL_INCLUDEDIR})
 
 install(DIRECTORY
