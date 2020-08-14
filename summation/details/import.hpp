@@ -11,6 +11,7 @@
 // ... External header files
 //
 #include <type_utility/type_utility.hpp>
+#include <function_utility/function_utility.hpp>
 
 namespace Summation::Details
 {
@@ -26,7 +27,7 @@ namespace Summation::Details
   using TypeUtility::Type;
   using TypeUtility::type;
 
-
+  using FunctionUtility::Static_callable;
 
 
 

@@ -9,6 +9,7 @@
 #include <summation/details/Tran2SumRange.hpp>
 #include <summation/details/SumArgs.hpp>
 #include <summation/details/TranSumArgs.hpp>
+#include <summation/details/Sum.hpp>
 
 namespace Summation
 {
@@ -22,5 +23,7 @@ namespace Summation
   using ::Summation::Details::tran2sum_range;
   using ::Summation::Details::sum_args;
   using ::Summation::Details::transum_args;
+
+  using ::Summation::Details::sum;
 
 } // end of namespace Summation

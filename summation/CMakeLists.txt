@@ -8,7 +8,10 @@ target_include_directories(summation_header
   $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}>
   $<BUILD_INTERFACE:${PROJECT_BINARY_DIR}>
   $<INSTALL_INTERFACE:${summation_INSTALL_INCLUDEDIR}>)
-target_link_libraries(summation_header INTERFACE type_utility::type_utility)
+target_link_libraries(summation_header
+  INTERFACE
+    type_utility::type_utility
+    function_utility::function_utility)
 add_library(summation::header ALIAS summation_header)
 
 add_library(summation_capi capi.cpp)
